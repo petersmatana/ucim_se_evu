@@ -1,0 +1,31 @@
+1) eve
+	na uplny zaklad bohate staci. (pak je tam stranka s
+	"features", ale to zatim ne)
+	-> http://python-eve.org/quickstart.html
+
+	tady je nejaky priklad, jak na zaklady
+	-> https://github.com/pyeve/eve-demo
+
+2) custom metody
+	mam takovy dojem, ze eve dela spoustu prace za nas.
+	veme datovy model, obali ho, a potom CRUD operace
+	jsou realizovane prave pomoci restful metod.
+
+	to se nam ale vzdy nebude hodit a obcas si budeme muset
+	napsat vlastni logiku rest metody.
+
+	-> https://nicolaiarocci.com/building-custom-endpoint-handlers-with-eve/
+	(Nicola Iarocci je autor eve, takze snad vi co pise)
+
+3) OAuth2
+	nevim na kolik se nam bude hodit toto:
+	http://python-eve.org/authentication.html
+
+	ale radeji bych sel rovnou do OAuth2.
+	-> https://github.com/pyeve/eve-oauth2
+
+4) Obaleni traffic
+	klient <-> server komunikuje, ale jak ty http pozadavky
+	vypadaji? palin text nebo je to nejak "sifrovany"?
+	obalit komunikaci do https? pisu to, jen abychom na to
+	pamatovali
